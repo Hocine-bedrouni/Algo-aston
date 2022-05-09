@@ -1,3 +1,5 @@
+package fr.exo05_Tableau;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
