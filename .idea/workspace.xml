@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa9ca0fa-6bf3-4571-9dfd-12f5763cd197" name="Changes" comment="Merge remote-tracking branch 'origin/Exo' into Exo">
-      <change afterPath="$PROJECT_DIR$/src/fr/exo08_Pyramide/exo08_Pyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/exo09_Pyra_Mirroir/exo09_Pyra_mirroir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aa9ca0fa-6bf3-4571-9dfd-12f5763cd197" name="Changes" comment="Merge remote-tracking branch 'origin/Exo' into Exo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,6 +144,7 @@
       <workItem from="1651841392461" duration="5089000" />
       <workItem from="1651846691240" duration="1693000" />
       <workItem from="1652083148445" duration="3213000" />
+      <workItem from="1652107343250" duration="235000" />
     </task>
     <task id="LOCAL-00001" summary="projet enter your name">
       <created>1651836043814</created>
@@ -317,7 +314,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652101135672</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Merge remote-tracking branch 'origin/Exo' into Exo">
+      <created>1652107449170</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1652107449170</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Merge remote-tracking branch 'origin/Exo' into Exo">
+      <created>1652107456989</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1652107456989</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -11,14 +11,16 @@ public class exo09_Pyra_mirroir {
         System.out.println("Entrez un chiffre");
         int nb = sc.nextInt();
         String pyr = "";
-        String test = "Salut tout le monde";
 
-      /*  for (int i = 0; i <= nb; i++) {
+
+        for (int i = 0; i <= nb; i++) {
+            System.out.println(pyr);
+            pyr += "*";
         }
-        System.out.println(pyr);
-        pyr += "*";*/
 
-        System.out.println(test.substring(2,2));
+        for (int j = nb; j >= 0; j--) {
+            System.out.println(pyr.substring(0,j));
 
+        }
     }
 }
