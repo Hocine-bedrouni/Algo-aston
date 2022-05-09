@@ -14,20 +14,20 @@ public class exo07_Somme {
         System.out.println("Entrez un chiffre");
         int nb = sc.nextInt();
         int resultat = 0;
-        int ch ;
+
 
         for (int i = 0 ; i <= nb; i++) {
              resultat += i;
-             ch = i;
+
 
             if (i == nb) {
-                // dernier chiffre à afficher pas de "+"
-                System.out.print(ch);
+                // dernier chiffre à afficher pas de "+" mais un "="
+                System.out.print(i + "=");
             } else {
                 // Pour afficher la liste de chiffres avec le "+"
-                System.out.print(ch +"+");
+                System.out.print(i +"+");
             }
         }
-        System.out.print(" = " +resultat);
+        System.out.print( resultat);
     }
 }
