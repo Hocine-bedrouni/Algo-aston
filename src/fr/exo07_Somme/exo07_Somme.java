@@ -21,8 +21,10 @@ public class exo07_Somme {
              ch = i;
 
             if (i == nb) {
+                // dernier chiffre à afficher pas de "+"
                 System.out.print(ch);
             } else {
+                // Pour afficher la liste de chiffres avec le "+"
                 System.out.print(ch +"+");
             }
         }
