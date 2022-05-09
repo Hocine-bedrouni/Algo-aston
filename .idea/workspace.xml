@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa9ca0fa-6bf3-4571-9dfd-12f5763cd197" name="Changes" comment="Merge remote-tracking branch 'origin/Test' into Test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/Exo05_tableau.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PerteProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/exo04/Plusgrand.java" afterDir="false" />
+    <list default="true" id="aa9ca0fa-6bf3-4571-9dfd-12f5763cd197" name="Changes" comment="Merge remote-tracking branch 'origin/Exo' into Exo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exo05_tableau.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/exo05_Tableau/Exo05_tableau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PerteProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/exo03/PerteProfit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,12 @@
       <list>
         <option value="hocine_bedrouni &lt;hocinebedrouni80@gmail.com&gt;" />
       </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Test" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -55,7 +60,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Exo05_tableau">
+  <component name="RunManager" selected="Application.calulatrice">
     <configuration name="Addition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.exo02.Addition" />
       <module name="Algorithme" />
@@ -65,33 +70,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Bienvenue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.exo01.Bienvenue" />
-      <module name="Algorithme" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.exo01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exo05_tableau" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exo05_tableau" />
-      <module name="Algorithme" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PerteProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PerteProfit" />
-      <module name="Algorithme" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,13 +87,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="calulatrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.exo06_Calculatrice.calulatrice" />
+      <module name="Algorithme" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.exo06_Calculatrice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fr.exo03.PerteProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.exo03.PerteProfit" />
+      <module name="Algorithme" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fr.exo05_Tableau.Exo05_tableau" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.exo05_Tableau.Exo05_tableau" />
+      <module name="Algorithme" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exo05_tableau" />
+        <item itemvalue="Application.calulatrice" />
+        <item itemvalue="Application.fr.exo05_Tableau.Exo05_tableau" />
         <item itemvalue="Application.Plusgrand" />
-        <item itemvalue="Application.PerteProfit" />
+        <item itemvalue="Application.fr.exo03.PerteProfit" />
         <item itemvalue="Application.Addition" />
-        <item itemvalue="Application.Bienvenue" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +186,77 @@
       <option name="project" value="LOCAL" />
       <updated>1651838690847</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="projet enter your name">
+      <created>1652089751617</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652089751617</updated>
+    </task>
+    <task id="LOCAL-00009" summary="projet enter your name">
+      <created>1652089806561</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652089806561</updated>
+    </task>
+    <task id="LOCAL-00010" summary="exo05">
+      <created>1652089820502</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652089820502</updated>
+    </task>
+    <task id="LOCAL-00011" summary="exo05">
+      <created>1652089823922</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652089823922</updated>
+    </task>
+    <task id="LOCAL-00012" summary="exo05">
+      <created>1652089973454</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1652089973454</updated>
+    </task>
+    <task id="LOCAL-00013" summary="exo05">
+      <created>1652089988347</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1652089988347</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'origin/Exo' into Exo">
+      <created>1652090011627</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1652090011627</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Merge remote-tracking branch 'origin/Exo' into Exo">
+      <created>1652090017835</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1652090017835</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge remote-tracking branch 'origin/Exo' into Exo">
+      <created>1652090039854</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1652090039854</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'origin/Exo' into Exo">
+      <created>1652090069805</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1652090069805</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +265,17 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="738bd812-d395-407f-bd29-50dd53b78c76">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -198,7 +284,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="Test" />
                       </list>
                     </value>
                   </entry>
@@ -212,9 +298,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Entrez votre nom" />
-    <MESSAGE value="projet enter your name" />
     <MESSAGE value="Merge remote-tracking branch 'origin/Test' into Test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/Test' into Test&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="projet enter your name" />
+    <MESSAGE value="exo05" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/Exo' into Exo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/Exo' into Exo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
