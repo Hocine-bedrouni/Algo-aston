@@ -14,13 +14,12 @@ public class Exo12_Temperature {
         list.add(3);
         list.add(-3);
         list.add(2);
-        list.add(-2);
-
+        list.add(-1);
 
         int min = list.get(0);
 
         for (int temp : list) {
-            if (min > Math.abs(temp) && ((min >= Math.signum(temp) || min < 0 )) ){
+            if (min > Math.abs(temp) && (min < Math.signum(temp) || min > 0)) {
                 min = temp;
             }
         }
