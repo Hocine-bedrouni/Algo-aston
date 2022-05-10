@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa9ca0fa-6bf3-4571-9dfd-12f5763cd197" name="Changes" comment="Merge remote-tracking branch 'origin/Exo' into Exo">
-      <change afterPath="$PROJECT_DIR$/src/fr/exo10_Sapin/exo10_Sapin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/exo12_temperature/Exo12_Temperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_05_2022_11_48__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_05_2022_11_48__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_05_2022_11_48__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_05_2022_11_48__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +68,13 @@
       <recent name="fr.exo05_Tableau" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.exo10_Sapin">
-    <configuration name="calulatrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.exo06_Calculatrice.calulatrice" />
+  <component name="RunManager" selected="Application.Exo12_Temperature">
+    <configuration name="Exo12_Temperature" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.exo12_temperature.Exo12_Temperature" />
       <module name="Algorithme" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.exo06_Calculatrice.*" />
+          <option name="PATTERN" value="fr.exo12_temperature.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exo12_Temperature" />
         <item itemvalue="Application.exo10_Sapin" />
         <item itemvalue="Application.exo09_Pyra_mirroir" />
         <item itemvalue="Application.exo08_Pyramid" />
         <item itemvalue="Application.exo07_Somme" />
-        <item itemvalue="Application.calulatrice" />
       </list>
     </recent_temporary>
   </component>
