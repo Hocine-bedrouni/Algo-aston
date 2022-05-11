@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exo14_FizzBuzz {
     public static void main(String[] args) {
 
-        int nombre = demanderNombre();
+        int nombre = demanderNombre("Entrez un nombre");
 
         for (int i = 0; i <= nombre; i++) {
             if (i % 15 == 0) {
@@ -24,7 +24,7 @@ public class Exo14_FizzBuzz {
         }
     }
 
-    private static int demanderNombre() {
+    private static int demanderNombre(String phrase) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Entrez un nombre");
         return scan.nextInt();

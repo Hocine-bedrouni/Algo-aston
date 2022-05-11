@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa9ca0fa-6bf3-4571-9dfd-12f5763cd197" name="Changes" comment="&#10;Exo">
-      <change afterPath="$PROJECT_DIR$/src/fr/exo14_FizzBuzz/Exo14_FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithme/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithme/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithme/fr/exo01/Bienvenue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithme/fr/exo01/Bienvenue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithme/fr/exo02/Addition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithme/fr/exo02/Addition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithme/fr/exo03/PerteProfit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithme/fr/exo03/PerteProfit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithme/fr/exo04/Plusgrand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithme/fr/exo04/Plusgrand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithme/fr/exo05_Tableau/Exo05_tableau.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithme/fr/exo05_Tableau/Exo05_tableau.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithme/fr/exo06_Calculatrice/calulatrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithme/fr/exo06_Calculatrice/calulatrice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithme/fr/exo07_Somme/exo07_Somme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithme/fr/exo07_Somme/exo07_Somme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithme/fr/exo08_Pyramide/exo08_Pyramid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithme/fr/exo08_Pyramide/exo08_Pyramid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithme/fr/exo09_Pyra_Mirroir/exo09_Pyra_mirroir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithme/fr/exo09_Pyra_Mirroir/exo09_Pyra_mirroir.class" afterDir="false" />
+    <list default="true" id="aa9ca0fa-6bf3-4571-9dfd-12f5763cd197" name="Changes" comment="Exo FizzBuzz">
+      <change afterPath="$PROJECT_DIR$/src/fr/exo16_RollerCoaster/Exo16_RollerCoaster.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +22,7 @@
         <option value="hocine_bedrouni &lt;hocinebedrouni80@gmail.com&gt;" />
       </list>
     </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -63,6 +53,11 @@
     ]
   }
 }</component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="Exo" />
+    </force-push-targets>
+  </component>
   <component name="RunManager" selected="Application.exo09_Pyra_mirroir">
     <configuration name="Addition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.exo02.Addition" />
@@ -137,7 +132,7 @@
       <workItem from="1652252220789" duration="1570000" />
       <workItem from="1652258077597" duration="32000" />
       <workItem from="1652258658012" duration="1373000" />
-      <workItem from="1652261622139" duration="168000" />
+      <workItem from="1652261622139" duration="563000" />
     </task>
     <task id="LOCAL-00001" summary="projet enter your name">
       <created>1651836043814</created>
@@ -195,7 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652261591599</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&#10;Exo FizzBuzz">
+      <created>1652261804920</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652261804920</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Exo FizzBuzz">
+      <created>1652261860033</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652261860033</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +239,8 @@
     <MESSAGE value="exo justePrix" />
     <MESSAGE value="Exo justePrix" />
     <MESSAGE value="&#10;Exo" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Exo" />
+    <MESSAGE value="&#10;Exo FizzBuzz" />
+    <MESSAGE value="Exo FizzBuzz" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exo FizzBuzz" />
   </component>
 </project>
