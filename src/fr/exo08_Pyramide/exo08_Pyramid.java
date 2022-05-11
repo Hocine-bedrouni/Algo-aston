@@ -15,6 +15,7 @@ public class exo08_Pyramid {
             pyr += "*";
             System.out.println(pyr);
         }
+
     }
 }
 
