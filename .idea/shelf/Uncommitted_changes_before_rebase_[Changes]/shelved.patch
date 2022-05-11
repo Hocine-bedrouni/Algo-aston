@@ -1,0 +1,21 @@
+Index: src/fr/exo06_Calculatrice/calulatrice.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package fr.exo06_Calculatrice;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class calulatrice {\r\n    public static void main(String[] args) {\r\n\r\n        System.out.println(\"Pour quitter tapez 0 comme premier chiffre\");\r\n\r\n        float nb1 =1;\r\n        while (nb1 >= 0){\r\n            Scanner sc = new Scanner(System.in);\r\n\r\n            System.out.println(\"Entrez le premier chiffre\");\r\n            nb1 = sc.nextInt();\r\n\r\n            if (nb1 == 0){\r\n                System.out.println(\"Merci d'avoir utiliser la calculatrice\");\r\n            break;}\r\n\r\n            System.out.println(\"Entrez le second chiffre\");\r\n            float nb2 = sc.nextInt();\r\n\r\n            System.out.println(\"Entrez l'operateur ( +, - , * , / )\");\r\n            String op = sc.next();\r\n\r\n\r\n\r\n            switch (op) {\r\n\r\n                case (\"+\"):\r\n                    System.out.printf(\"%f %s %f = %f %n\", nb1, op, nb2, nb1 + nb2);\r\n                    break;\r\n                case (\"-\"):\r\n                    System.out.printf(\"%f %s %f = %f %n\", nb1, op, nb2, nb1 - nb2);\r\n                    break;\r\n                case (\"*\"):\r\n                    System.out.printf(\"%f %s %f = %f %n\", nb1, op, nb2, nb1 * nb2);\r\n                    break;\r\n                case (\"/\"):\r\n                    if (nb2 == 0) {\r\n                        System.out.printf(\"Operation impossible %n\");\r\n                    } else {\r\n                        System.out.printf(\"%f %s %f = %f %n\", nb1, op, nb2, nb1 / nb2);\r\n                    }\r\n                    break;\r\n                default:\r\n                    System.out.printf(\"Mauvais operateur choisi %n\");\r\n\r\n\r\n            }}\r\n\r\n\r\n        }\r\n    }\r\n\r\n\r\n
+===================================================================
+diff --git a/src/fr/exo06_Calculatrice/calulatrice.java b/src/fr/exo06_Calculatrice/calulatrice.java
+--- a/src/fr/exo06_Calculatrice/calulatrice.java	
++++ b/src/fr/exo06_Calculatrice/calulatrice.java	
+@@ -47,10 +47,8 @@
+                 default:
+                     System.out.printf("Mauvais operateur choisi %n");
+ 
+-
+-            }}
+-
+-
++            }
++        }
+         }
+     }
+ 

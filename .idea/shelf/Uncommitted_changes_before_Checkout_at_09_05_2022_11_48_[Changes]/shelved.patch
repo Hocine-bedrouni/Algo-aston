@@ -1,0 +1,69 @@
+Index: src/Exo05_tableau.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.ArrayList;\r\nimport java.util.Scanner;\r\n\r\npublic class Exo05_tableau {\r\n    public static void main(String[] args) {\r\n\r\n        Scanner sc = new Scanner(System.in);\r\n\r\n        int[] notes = {15, 12, 16};\r\n        int[] listes = new int[3];\r\n\r\n       for (int j=0 ;j < listes.length; j++){\r\n           System.out.println(\"Entrez une note\");\r\n        listes[j] = sc.nextInt();}\r\n\r\n        for (int i = 0; i < notes.length; i++) {\r\n            if (notes[i] >= 0 && notes[i] <= 4) {\r\n                System.out.println(notes[i] + \" -> Catastrophique\");\r\n            }\r\n            if (notes[i] >= 5 && notes[i] <= 10) {\r\n                System.out.println(notes[i] + \" -> Insuffisant\");\r\n            }\r\n            if (notes[i] >= 11 && notes[i] <= 14) {\r\n                System.out.println(notes[i] + \" -> Peut mieux faire\");\r\n            }\r\n            if (notes[i] >= 15 && notes[i] <= 17) {\r\n                System.out.println(notes[i] + \" -> Bien\");\r\n            }\r\n            if (notes[i] >= 18 && notes[i] <= 20) {\r\n                System.out.println(notes[i] + \" -> Excellent, bon travail\");\r\n            }\r\n        }\r\n\r\n            for (int j = 0; j < listes.length; j++) {\r\n                if (listes[j] >=0 &&  listes[j] <= 4) {\r\n                    System.out.println(listes[j] + \" -> Catastrophique\");\r\n                }\r\n                if (listes[j] >=5 && listes[j] <= 10) {\r\n                    System.out.println(listes[j] + \" -> Insuffisant\");\r\n                }\r\n                if (listes[j] >=11 && listes[j] <= 14) {\r\n                    System.out.println(listes[j] + \" -> Peut mieux faire\");\r\n                }\r\n                if (listes[j] >=15 && listes[j] <= 17) {\r\n                    System.out.println(listes[j] + \" -> Bien\");\r\n                }\r\n                if (listes[j] >=18 && listes[j] <= 20) {\r\n                    System.out.println(listes[j] + \" -> Excellent, bon travail\");\r\n                }\r\n\r\n        }\r\n    }\r\n}\r\n\r\n
+===================================================================
+diff --git a/src/Exo05_tableau.java b/src/Exo05_tableau.java
+--- a/src/Exo05_tableau.java	
++++ b/src/Exo05_tableau.java	
+@@ -6,7 +6,7 @@
+ 
+         Scanner sc = new Scanner(System.in);
+ 
+-        int[] notes = {15, 12, 16};
++        int[] notes = {15, 12, 16, 3, 9, 13, -2};
+         int[] listes = new int[3];
+ 
+        for (int j=0 ;j < listes.length; j++){
+@@ -17,36 +17,43 @@
+             if (notes[i] >= 0 && notes[i] <= 4) {
+                 System.out.println(notes[i] + " -> Catastrophique");
+             }
+-            if (notes[i] >= 5 && notes[i] <= 10) {
++            else if (notes[i] > 4 && notes[i] <= 10) {
+                 System.out.println(notes[i] + " -> Insuffisant");
+             }
+-            if (notes[i] >= 11 && notes[i] <= 14) {
++            else if (notes[i] > 10 && notes[i] <= 14) {
+                 System.out.println(notes[i] + " -> Peut mieux faire");
+             }
+-            if (notes[i] >= 15 && notes[i] <= 17) {
++            else if (notes[i] > 14 && notes[i] <= 17) {
+                 System.out.println(notes[i] + " -> Bien");
+             }
+-            if (notes[i] >= 18 && notes[i] <= 20) {
++            else if (notes[i] > 17 && notes[i] <= 20) {
+                 System.out.println(notes[i] + " -> Excellent, bon travail");
+             }
++            else {
++                System.out.println(notes[i] + " Entre une note valide");
++            }
++
+         }
+ 
+             for (int j = 0; j < listes.length; j++) {
+                 if (listes[j] >=0 &&  listes[j] <= 4) {
+                     System.out.println(listes[j] + " -> Catastrophique");
+                 }
+-                if (listes[j] >=5 && listes[j] <= 10) {
++                else if (listes[j] > 4 && listes[j] <= 10) {
+                     System.out.println(listes[j] + " -> Insuffisant");
+                 }
+-                if (listes[j] >=11 && listes[j] <= 14) {
++                else if (listes[j] >= 10 && listes[j] <= 14) {
+                     System.out.println(listes[j] + " -> Peut mieux faire");
+                 }
+-                if (listes[j] >=15 && listes[j] <= 17) {
++                else if (listes[j] > 14 && listes[j] <= 17) {
+                     System.out.println(listes[j] + " -> Bien");
+                 }
+-                if (listes[j] >=18 && listes[j] <= 20) {
++                else if (listes[j] > 17 && listes[j] <= 20) {
+                     System.out.println(listes[j] + " -> Excellent, bon travail");
+                 }
++                else {
++                    System.out.println(listes[j] + " Entre une note valide");
++                }
+ 
+         }
+     }

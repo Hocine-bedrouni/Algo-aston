@@ -14,6 +14,16 @@ public class exo09_Pyra_mirroir {
 
 
         for (int i = 0; i <= nb; i++) {
+
+            System.out.println(pyr);
+            pyr += "*";
+        }
+
+        for (int j = nb; j >= 0; j--) {
+            System.out.println(pyr.substring(0,j));
+
+        }
+
             pyr += "*";
             System.out.println(pyr);
         }
@@ -39,5 +49,6 @@ public class exo09_Pyra_mirroir {
 
         System.out.println("gjhggogu".substring(2, 5)); //returns "urge"
         System.out.println("smiles".substring(1, 5)); //returns "mile"*/
+
     }
 }
