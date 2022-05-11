@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa9ca0fa-6bf3-4571-9dfd-12f5763cd197" name="Changes" comment="projet enter your name" />
+    <list default="true" id="aa9ca0fa-6bf3-4571-9dfd-12f5763cd197" name="Changes" comment="exo FizzBuzz">
+      <change afterPath="$PROJECT_DIR$/src/fr/exo13_Tri/Exo13_Tri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/exo13_Tri/exo13_Tri_list.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +30,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28mlrnyryp6e4A1aQJjLT25r4zT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +43,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "File.Encoding"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -45,7 +54,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Addition">
+  <component name="RunManager" selected="Application.exo09_Pyra_mirroir">
     <configuration name="Addition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.exo02.Addition" />
       <module name="Algorithme" />
@@ -72,8 +81,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exo15_JustePrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.exo15_JustePrix.Exo15_JustePrix" />
+      <module name="Algorithme" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.exo15_JustePrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exo09_Pyra_mirroir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.exo09_Pyra_Mirroir.exo09_Pyra_mirroir" />
+      <module name="Algorithme" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.exo09_Pyra_Mirroir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exo09_Pyra_mirroir" />
+        <item itemvalue="Application.Exo15_JustePrix" />
         <item itemvalue="Application.Addition" />
         <item itemvalue="Application.Bienvenue" />
       </list>
@@ -88,6 +125,9 @@
       <option name="presentableId" value="Default" />
       <updated>1651829843038</updated>
       <workItem from="1651829844414" duration="4916000" />
+      <workItem from="1652252220789" duration="1570000" />
+      <workItem from="1652258077597" duration="32000" />
+      <workItem from="1652258658012" duration="1373000" />
     </task>
     <task id="LOCAL-00001" summary="projet enter your name">
       <created>1651836043814</created>
@@ -131,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651837946808</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Exo justePrix">
+      <created>1652260834164</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652260834164</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +210,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Entrez votre nom" />
     <MESSAGE value="projet enter your name" />
-    <option name="LAST_COMMIT_MESSAGE" value="projet enter your name" />
+    <MESSAGE value="exo justePrix" />
+    <MESSAGE value="Exo justePrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exo justePrix" />
   </component>
 </project>

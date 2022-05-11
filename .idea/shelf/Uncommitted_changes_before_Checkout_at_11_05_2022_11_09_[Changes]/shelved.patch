@@ -1,0 +1,29 @@
+Index: src/fr/exo14_FizzBuzz/Exo14_FizzBuzz.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package fr.exo14_FizzBuzz;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Exo14_FizzBuzz {\r\n    public static void main(String[] args) {\r\n\r\n        int nombre = demanderNombre();\r\n\r\n        for (int i = 0; i <= nombre; i++) {\r\n            if (i % 15 == 0) {\r\n                System.out.println(\"FizzBuzz\");\r\n            } else if (i % 5 == 0) {\r\n                System.out.println(\"Buzz\");\r\n            } else if (i % 3 == 0) {\r\n                System.out.println(\"Fizz\");\r\n            } else {\r\n                System.out.println(\"Fizz\");\r\n            }\r\n        }\r\n\r\n        for (int i = 0; i <= nombre; i++) {\r\n            System.out.println(i % 15 == 0 ? \"FizzBuzz\" : i % 5 == 0 ? \"Buzz\" : i % 3 == 0 ? \"Fizz\" : i);\r\n            }\r\n        }\r\n\r\n    private static int demanderNombre() {\r\n        Scanner scan = new Scanner(System.in);\r\n        System.out.println(\"Entrez un nombre\");\r\n        return scan.nextInt();\r\n    }\r\n    }\r\n
+===================================================================
+diff --git a/src/fr/exo14_FizzBuzz/Exo14_FizzBuzz.java b/src/fr/exo14_FizzBuzz/Exo14_FizzBuzz.java
+--- a/src/fr/exo14_FizzBuzz/Exo14_FizzBuzz.java	
++++ b/src/fr/exo14_FizzBuzz/Exo14_FizzBuzz.java	
+@@ -5,7 +5,7 @@
+ public class Exo14_FizzBuzz {
+     public static void main(String[] args) {
+ 
+-        int nombre = demanderNombre();
++        int nombre = demanderNombre("Entrez un nombre");
+ 
+         for (int i = 0; i <= nombre; i++) {
+             if (i % 15 == 0) {
+@@ -24,9 +24,9 @@
+             }
+         }
+ 
+-    private static int demanderNombre() {
++    public static int demanderNombre(String a) {
+         Scanner scan = new Scanner(System.in);
+-        System.out.println("Entrez un nombre");
++        System.out.println(a);
+         return scan.nextInt();
+     }
+     }
