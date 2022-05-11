@@ -24,7 +24,7 @@ public class Exo14_FizzBuzz {
         }
     }
 
-    private static int demanderNombre(String phrase) {
+    public static int demanderNombre(String phrase) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Entrez un nombre");
         return scan.nextInt();
