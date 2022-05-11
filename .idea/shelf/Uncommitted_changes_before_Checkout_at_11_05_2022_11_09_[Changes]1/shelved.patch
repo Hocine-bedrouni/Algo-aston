@@ -1,0 +1,149 @@
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+deleted file mode 100644
+--- a/.idea/encodings.xml	
++++ /dev/null	
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Encoding">
+-    <file url="PROJECT" charset="UTF-8" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"aa9ca0fa-6bf3-4571-9dfd-12f5763cd197\" name=\"Changes\" comment=\"projet enter your name\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/fr/exo14_FizzBuzz/Exo14_FizzBuzz.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2022_14_57__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2022_14_57__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_2.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_2.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PREVIOUS_COMMIT_AUTHORS\">\r\n      <list>\r\n        <option value=\"hocine_bedrouni &lt;hocinebedrouni80@gmail.com&gt;\" />\r\n      </list>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"28mlrnyryp6e4A1aQJjLT25r4zT\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;ChangesTree.GroupingKeys&quot;: [\r\n      &quot;module&quot;\r\n    ]\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Application.Addition\">\r\n    <configuration name=\"Addition\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"fr.exo02.Addition\" />\r\n      <module name=\"Algorithme\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"fr.exo02.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Bienvenue\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"fr.exo01.Bienvenue\" />\r\n      <module name=\"Algorithme\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"fr.exo01.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Addition\" />\r\n        <item itemvalue=\"Application.Bienvenue\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"aa9ca0fa-6bf3-4571-9dfd-12f5763cd197\" name=\"Changes\" comment=\"\" />\r\n      <created>1651829843038</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1651829843038</updated>\r\n      <workItem from=\"1651829844414\" duration=\"4916000\" />\r\n      <workItem from=\"1652252220789\" duration=\"1570000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"projet enter your name\">\r\n      <created>1651836043814</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1651836043814</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"projet enter your name\">\r\n      <created>1651836256045</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1651836256045</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"projet enter your name\">\r\n      <created>1651836274476</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1651836274476</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"projet enter your name\">\r\n      <created>1651836418246</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1651836418246</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"projet enter your name\">\r\n      <created>1651836501319</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1651836501319</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"projet enter your name\">\r\n      <created>1651837946808</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1651837946808</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Entrez votre nom\" />\r\n    <MESSAGE value=\"projet enter your name\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"projet enter your name\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -1,11 +1,13 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="aa9ca0fa-6bf3-4571-9dfd-12f5763cd197" name="Changes" comment="projet enter your name">
+-      <change afterPath="$PROJECT_DIR$/src/fr/exo14_FizzBuzz/Exo14_FizzBuzz.java" afterDir="false" />
++    <list default="true" id="aa9ca0fa-6bf3-4571-9dfd-12f5763cd197" name="Changes" comment="exo FizzBuzz">
++      <change afterPath="$PROJECT_DIR$/src/fr/exo15_JustePrix/Exo15_JustePrix.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2022_14_57__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_2022_14_57__Changes_.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_2.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/fr/exo14_FizzBuzz/Exo14_FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/exo14_FizzBuzz/Exo14_FizzBuzz.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -31,7 +33,9 @@
+     <option name="stateVersion" value="1" />
+   </component>
+   <component name="ProjectId" id="28mlrnyryp6e4A1aQJjLT25r4zT" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -42,7 +46,7 @@
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
++    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+   },
+   &quot;keyToStringList&quot;: {
+     &quot;ChangesTree.GroupingKeys&quot;: [
+@@ -50,7 +54,7 @@
+     ]
+   }
+ }</component>
+-  <component name="RunManager" selected="Application.Addition">
++  <component name="RunManager" selected="Application.Exo15_JustePrix">
+     <configuration name="Addition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="fr.exo02.Addition" />
+       <module name="Algorithme" />
+@@ -77,8 +81,22 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
++    <configuration name="Exo15_JustePrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="fr.exo15_JustePrix.Exo15_JustePrix" />
++      <module name="Algorithme" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="fr.exo15_JustePrix.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.Exo15_JustePrix" />
+         <item itemvalue="Application.Addition" />
+         <item itemvalue="Application.Bienvenue" />
+       </list>
+@@ -94,6 +112,8 @@
+       <updated>1651829843038</updated>
+       <workItem from="1651829844414" duration="4916000" />
+       <workItem from="1652252220789" duration="1570000" />
++      <workItem from="1652258077597" duration="32000" />
++      <workItem from="1652258658012" duration="1373000" />
+     </task>
+     <task id="LOCAL-00001" summary="projet enter your name">
+       <created>1651836043814</created>
+Index: src/fr/exo15_JustePrix/Exo15_JustePrix.java
+===================================================================
+diff --git a/src/fr/exo15_JustePrix/Exo15_JustePrix.java b/src/fr/exo15_JustePrix/Exo15_JustePrix.java
+new file mode 100644
+--- /dev/null	
++++ b/src/fr/exo15_JustePrix/Exo15_JustePrix.java	
+@@ -0,0 +1,38 @@
++package fr.exo15_JustePrix;
++
++import java.util.Random;
++import java.util.Scanner;
++
++import static fr.exo14_FizzBuzz.Exo14_FizzBuzz.demanderNombre;
++
++public class Exo15_JustePrix {
++
++    public static void main(String[] args) {
++
++        int max = demanderNombre("Choisir le prix max du jeu à ne pas dépasser ");
++        Random ran = new Random();
++        int prixJuste = ran.nextInt(max);
++        double nombre;
++        int tentative = demanderNombre("Entrez votre nombre d'essai");
++//        System.out.println(prixJuste);
++
++
++        for (int i = 1; i <= tentative; i++) {
++            nombre = demanderNombre("Entrez un prix entre 0 et "+ max);
++            if (nombre == prixJuste) {
++                System.out.println("Bravo tu as trouver le juste prix, Lagaffe te remercie");
++                System.out.println("tu as utilisé "+ i+ " tentatives");
++                break;
++            } else if (nombre > prixJuste) {
++                System.out.println("C'est moins");
++            } else {
++                System.out.println("C'est plus");
++            }
++            if (i == tentative) {
++                System.out.println("le temps est dépassé tu es le maillon faible, il fallait trouver "+ prixJuste);
++                break;
++            }
++        }
++    }
++}
++
